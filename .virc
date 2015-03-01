@@ -1,0 +1,22 @@
+set nu
+set backspace=2
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+imap <S-Tab> <C-o>
+vmap <Tab> >gv
+vmap <S-Tab> >gv
+
+"Split Navigation"
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
+nmap <NUL> :! ls<cr> :shell<cr>
+
