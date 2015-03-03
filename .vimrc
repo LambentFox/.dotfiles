@@ -110,4 +110,9 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_theme = 'wombat'
 set encoding=utf-8
-"set guifont=Consolas for Powerline FixedD:h9
+
+" old vim-powerline symbols
+ let g:airline_left_sep = '⮀'
+ let g:airline_left_alt_sep = '⮁'
+ let g:airline_right_sep = '⮂'
+ let g:airline_right_alt_sep = '⮃'
